@@ -210,7 +210,7 @@ with st.expander('🧠 LLMs Personality Details', expanded=True):
             if ele1_width <= ele2_width:
                 st.success(f'{group[1]} ({ele2},{round(ele2_percentage * 100, 1)} %)')
             else:
-                st.error(f'{group[1]} ({ele2},{round(ele2_percentage * 100, 1)} %)')
+                st.error(f'{group[1]} ') # ({ele2},{round(ele2_percentage * 100, 1)} %)
 
 
 st.dataframe(
